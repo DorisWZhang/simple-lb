@@ -1,0 +1,19 @@
+{
+    "servers": [
+        {
+            "name": "localhost",
+            "port": 3000,
+            "weight": 1
+        },
+        {
+            "name": "localhost",
+            "port": 3001,
+            "weight": 1
+        },
+        {
+            "name": "localhost",
+            "port": 3002,
+            "weight": 2
+        }
+    ]
+}
