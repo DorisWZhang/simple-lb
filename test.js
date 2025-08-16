@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const LB_URL = 'http://localhost:8000'; // change this to your load balancer's URL
+const LB_URL = 'http://localhost:8001'; // change this to your load balancer's URL
 const NUM_REQUESTS = 10; // number of test requests
 
 async function testLB() {

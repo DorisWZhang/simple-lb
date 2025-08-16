@@ -4,7 +4,7 @@ const httpProxy = require('http-proxy');
 
 const proxy = httpProxy.createProxyServer({});
 
-const servers = require('./server.json').servers;
+const servers = require('./servers.json').servers;
 
 let currentIndex = 0;
 
